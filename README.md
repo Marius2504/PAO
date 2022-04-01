@@ -23,12 +23,10 @@ Descriere
   Clasa preferences contine date despre preferintele clientului, metoda de plata preferata, locatia acasa etc.
   Clasa register contine date despre client, nume, prenume, o lista de evenimente, lista curselor, preferinte, setari. 
   Clasa setari contine informatii despre setarile alese de catre client asupra aplicatiei.
-  
-	Al doilea pachet contine date despre bunul mers al companiei. Prima clasa, contracts, contine date legate de contractele incheiate cu alte companii. 
+ 	Al doilea pachet contine date despre bunul mers al companiei. Prima clasa, contracts, contine date legate de contractele incheiate cu alte companii. 
   Clasa employee contine date despre angajatii companiei(in afara de soferi), lista salarilor, o lista de incidente,un calificatv total, o mapa cu zilele lucratoare. 
   Clasa payment contine informatii despre metoda actuala de plata, formula, valoare totala taxe, lista taxe.
-  
-	Al treilea pachet contine informatii necesare angajatului. Clasa car cuprinde date despre masina folosita. Clasa driver contine date despre sofer. 
+  	Al treilea pachet contine informatii necesare angajatului. Clasa car cuprinde date despre masina folosita. Clasa driver contine date despre sofer. 
   Clasa map contine date despre cursa.
 	
 
