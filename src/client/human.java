@@ -1,7 +1,6 @@
 package client;
 
-import java.util.Date;
-import java.util.List;
+import java.sql.Date;
 
 public abstract class human {
     private String name;
@@ -78,6 +77,5 @@ public abstract class human {
     public void setPassword(String password) {
         this.password = password;
     }
-
 
 }

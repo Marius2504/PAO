@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="729593ca-aa43-4a99-b646-e06bb1dea216" name="Default Changelist" comment="" />
+    <list default="true" id="729593ca-aa43-4a99-b646-e06bb1dea216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/PreferencesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/InvalidData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/DriverRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/GenericRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/HelpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/HistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persistance/PreferencesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PreferencesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProiectPAO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectPAO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/history.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/history.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/preferences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/preferences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/company/employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/company/employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main_menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main_menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/history.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/history.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/preferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/preferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/main_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/main_menu.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,18 +58,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="26pm5uD0oLyi7KZQwD4Bon2J0SL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DatabaseServices" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java Projects\ProiectPAO\src\DatabaseServices" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,11 +144,74 @@
       <workItem from="1648143781560" duration="6242000" />
       <workItem from="1648571584815" duration="15700000" />
       <workItem from="1648722874065" duration="10913000" />
-      <workItem from="1648819655716" duration="9384000" />
+      <workItem from="1648819655716" duration="9967000" />
+      <workItem from="1649111426534" duration="26000" />
+      <workItem from="1649111716127" duration="15000" />
+      <workItem from="1649111777488" duration="604000" />
+      <workItem from="1652397453579" duration="1144000" />
+      <workItem from="1652530782438" duration="10000" />
+      <workItem from="1653223758005" duration="12643000" />
+      <workItem from="1653344278147" duration="3273000" />
+      <workItem from="1653481185923" duration="50000" />
+      <workItem from="1653573450296" duration="9366000" />
+      <workItem from="1653589578119" duration="15496000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DatabaseServices/EmployeeService.java</url>
+          <line>21</line>
+          <properties class="DatabaseServices.EmployeeService" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DatabaseServices/HistoryService.java</url>
+          <line>16</line>
+          <properties class="DatabaseServices.HistoryService" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DatabaseServices/CarService.java</url>
+          <line>40</line>
+          <properties class="DatabaseServices.CarService" method="read">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DatabaseServices/PreferencesService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/menu/main_menu.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

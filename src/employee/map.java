@@ -74,7 +74,7 @@ public class map {
     }
 
 
-
+    /*
     public float price_calcc()
     {
         int busy = isBusy ? 1 : 0;
@@ -87,5 +87,10 @@ public class map {
         suma = suma/current_client.getRating();
         return suma;
     }
+    public String toCSV()
+    {
+        return isBusy+","+badWeather+","+totalKm+","+getDrv().getName()+","+getCurrent_client().getName();
+    }
 
+     */
 }
