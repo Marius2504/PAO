@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="729593ca-aa43-4a99-b646-e06bb1dea216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/HistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseServices/PreferencesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/InvalidData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu/Load.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/DriverRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/GenericRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/HelpRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/HistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persistance/PreferencesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/HistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/PreferencesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProiectPAO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectPAO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/history.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/history.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/preferences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/preferences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/client/register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/client/register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/company/employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/company/employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/employee/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/employee/map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main_menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectPAO/menu/main_menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/history.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/history.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/preferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/preferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/company/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employee/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employee/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employee/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/main_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/main_menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="729593ca-aa43-4a99-b646-e06bb1dea216" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +107,7 @@
       <workItem from="1653344278147" duration="3273000" />
       <workItem from="1653481185923" duration="50000" />
       <workItem from="1653573450296" duration="9366000" />
-      <workItem from="1653589578119" duration="15496000" />
+      <workItem from="1653589578119" duration="15575000" />
     </task>
     <servers />
   </component>
