@@ -28,10 +28,10 @@ public class car {
 
     public car(int id, String brand, float avgconsum, int totalkm, boolean isE, boolean hasC) {
         this.brand = brand;
-        this.avgConsum = avgConsum;
-        this.totalKm = totalKm;
-        this.isElectric = isElectric;
-        this.hasChildSeat = hasChildSeat;
+        this.avgConsum = avgconsum;
+        this.totalKm = totalkm;
+        this.isElectric = isE;
+        this.hasChildSeat = hasC;
         this.Id = id;
     }
 

@@ -35,7 +35,8 @@ public class PreferencesService implements Generic {
         ResultSet resultSet = statement.executeQuery(sql);
         while (resultSet.next())
         {
-            lista.add((Object)new preferences(resultSet.getInt("ID"),resultSet.getString("TYPEOFCAR"),resultSet.getString("PAYMENTMEYHOD"),resultSet.getString("HOMELOCATION"),resultSet.getInt("REGID")));
+            //ID,TYPEOFCAR,PAYMENTMETHOD,HOMELOCATION,REGID
+            lista.add((Object)new preferences(resultSet.getInt("ID"),resultSet.getString("TYPEOFCAR"),resultSet.getString("PAYMENTMETHOD"),resultSet.getString("HOMELOCATION"),resultSet.getInt("REGID")));
         }
         return lista;
     }

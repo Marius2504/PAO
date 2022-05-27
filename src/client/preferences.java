@@ -6,7 +6,7 @@ public class preferences {
     private String homeLocation;
     private Integer Id;
     private Integer RegId;
-    private static Integer count=0;
+    private static Integer count=3;
     public preferences()
     {
         this.typeOfCar="";

@@ -60,7 +60,7 @@ public class main_menu {
          //List<map> map_list = new ArrayList<>(Collections.singletonList(new map(true, false, 10, driver_list.get(0), clients_list.get(0))));
 
          //carService.create(car_list.get(0));
-         ArrayList<Object> oo = carService.read();
+        // ArrayList<Object> oo = preferencesService.read();
          // System.out.println(((car)oo.get(0)).getBrand());
          //metoda prin care curatam terminalul
          boolean isOn = true;
@@ -156,10 +156,10 @@ public class main_menu {
                          while (isOpt)
                          {
                              System.out.println("\nHistory class is used to store information about clients' rides");
-                             System.out.println("1.Show all");//read
-                             System.out.println("2.Add help");//create
-                             System.out.println("3.Delete help");//delete
-                             System.out.println("4.Update delete");//update
+                             System.out.println("1.Show history");//read
+                             System.out.println("2.Add history");//create
+                             System.out.println("3.Delete history");//delete
+                             System.out.println("4.Update history");//update
                              System.out.println("9.Go back");
                              choose2 = sc.nextInt();
                              cl.clearAll();
@@ -185,6 +185,7 @@ public class main_menu {
                                  history aux= new history();
                                  String var;
                                  double pr;
+                                 Integer ind;
                                  //String name, String surname, String phone, String email, String password, Date birthDate, List<history> hst, settings st, int rating, List<String> events, List<String> titleEvents
                                  System.out.println("Pricee: ");
                                  pr = sc.nextInt();
@@ -200,6 +201,9 @@ public class main_menu {
                                  java.util.Date d1 =new SimpleDateFormat("yyyy-mm-dd").parse(var);
                                  Date date1 = new Date(d1.getTime());
                                  aux.setDate(date1);
+                                 System.out.println("Register Id: ");
+                                 ind = sc.nextInt();
+                                 aux.setRegId(ind);
                                  history_list.add(aux);
                                  //Adaugare in baza de date
                                  historyService.create(aux);
@@ -260,6 +264,7 @@ public class main_menu {
                                      System.out.println("Type of car: " + ((preferences)elm).getTypeOfCar());
                                      System.out.println("Home location: " + ((preferences)elm).getHomeLocation());
                                      System.out.println("Payment Method: " + ((preferences)elm).getPaymentMethod());
+                                     System.out.println("Register Id: " + ((preferences)elm).getRegId());
                                      System.out.println("---------------------------------");
                                  }
                                  /*
@@ -276,6 +281,7 @@ public class main_menu {
                                  preferences aux= new preferences();
                                  String var;
                                  double pr;
+                                 Integer ind;
                                  //String name, String surname, String phone, String email, String password, Date birthDate, List<history> hst, settings st, int rating, List<String> events, List<String> titleEvents
                                  System.out.println("Type of car: ");
                                  var = sc.next();
@@ -286,6 +292,9 @@ public class main_menu {
                                  System.out.println("Payment Method: ");
                                  var = sc.next();
                                  aux.setPaymentMethod(var);
+                                 System.out.println("Register Id");
+                                 ind = sc.nextInt();
+                                 aux.setRegId(ind);
 
                                  //Adaugare in baza de date
                                  preferencesService.create(aux);
@@ -314,6 +323,9 @@ public class main_menu {
                                  System.out.println("Payment Method: ");
                                  var = sc.next();
                                  aux.setPaymentMethod(var);
+                                 System.out.println("Register Id");
+                                 ind = sc.nextInt();
+                                 aux.setRegId(ind);
 
                                  //Adaugare in baza de date
                                  preferencesService.update(aux);
